@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3DES Encryption and Decryption</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.3.0/crypto-js.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>3DES Encryption and Decryption</h1>
+        <div>
+            <label for="fileInput">Choose a file:</label>
+            <input type="file" id="fileInput" >
+        </div>
+        <div>
+            <br>
+            <label for="inputText">Or enter text:</label>
+            <textarea id="inputText" rows="4" cols="50"></textarea>
+        </div>
+        <div>
+            <button id="encryptButton">Encrypt</button>
+            <button id="decryptButton">Decrypt</button>
+        </div>
+        <div>
+            <br>
+            <label for="outputText">Result:</label>
+            <textarea id="outputText" rows="4" cols="50"></textarea>
+        </div>
+        <div>
+            <button id="saveEncryptedButton">Save Encrypted File</button>
+            <button id="saveDecryptedButton">Save Decrypted File</button>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

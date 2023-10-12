@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('Index.jpg'); /* Replace 'background.jpg' with your image file path */
+            
+            
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+h1 {
+    background-color: #383737;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.input-container {
+    margin: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+
+input[type="text"] {
+    width: 50%;
+    padding: 5px;
+}
+
+.buttons {
+
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #02a5f6;
+    background-image: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #77cfffe6;
+   
+}
+
+.result-container {
+    margin: 50px;
+}
+
+textarea {
+    margin: 10px;
+    width: 95%;
+    padding: 5px;
+}
+#saveEncryptedButton, #saveDecryptedButton {
+    background-color: #28a745;
+}
+
+#saveEncryptedButton:hover, #saveDecryptedButton:hover {
+    background-color: #00ff37;
+}

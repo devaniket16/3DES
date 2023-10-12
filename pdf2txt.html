@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF to TXT Converter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>PDF to TXT Converter</h1>
+        <form id="pdfForm" enctype="multipart/form-data">
+            <input type="file" id="pdfFile" accept=".pdf" required>
+            <button type="button" id="convertBtn">Convert</button>
+        </form>
+        <a id="downloadLink" style="display: none">Download TXT</a>
+    </div>
+
+    <script src="scriptpdf.js"></script>
+</body>
+</html>
